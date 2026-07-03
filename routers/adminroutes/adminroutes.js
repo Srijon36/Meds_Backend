@@ -9,7 +9,7 @@ const {
   toggleSubscription,
   toggleActiveStatus,
   deleteUser,
-} = require("../../controllers/admincontroller/admincontroller");
+} = require("../../controllers/admincontroller/adminController");
 
 router.use(protect, adminOnly);
 
