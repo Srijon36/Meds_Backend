@@ -30,7 +30,7 @@ require("./sockets/inventory.socket")(io);
 require("./sockets/emergency.socket")(io);
 
 // 🔹 Import createDefaultAdmin
-const { createDefaultAdmin } = require("./controllers/registerController/registerController");
+const { createDefaultAdmin } = require("./controllers/registercontroller/registerController");
 
 // 🔹 MongoDB Connection
 mongoose
